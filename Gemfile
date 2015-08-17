@@ -9,9 +9,13 @@ gem 'sqlite3'
 
 gem "mongoid", "~> 4.0.0"
 
-
+gem 'react-rails'
+gem 'showdown-rails'
 
 gem 'slim-rails'
+
+gem 'bootstrap-sass'
+gem 'autoprefixer-rails'
 
 
 # Use SCSS for stylesheets
