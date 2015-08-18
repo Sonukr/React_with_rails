@@ -14,8 +14,7 @@ gem 'showdown-rails'
 
 gem 'slim-rails'
 
-gem 'bootstrap-sass'
-gem 'autoprefixer-rails'
+gem 'bootstrap-sass', '~> 3.3.5.1'
 
 
 # Use SCSS for stylesheets

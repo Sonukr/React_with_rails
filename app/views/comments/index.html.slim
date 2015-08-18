@@ -1,24 +1,25 @@
-h1 Listing comments
+.container
+  h1 Listing comments
 
-=react_component("Comment")
-table
-  thead
-    tr
-      th Author
-      th Text
-      th
-      th
-      th
-
-  tbody
-    - @comments.each do |comment|
+  =react_component("Comment")
+  table
+    thead
       tr
-        td = comment.author
-        td = comment.text
-        td = link_to 'Show', comment
-        td = link_to 'Edit', edit_comment_path(comment)
-        td = link_to 'Destroy', comment, data: {:confirm => 'Are you sure?'}, :method => :delete
+        th Author
+        th Text
+        th
+        th
+        th
 
-br
+    tbody
+      - @comments.each do |comment|
+        tr
+          td = comment.author
+          td = comment.text
+          td = link_to 'Show', comment
+          td = link_to 'Edit', edit_comment_path(comment)
+          td = link_to 'Destroy', comment, data: {:confirm => 'Are you sure?'}, :method => :delete
 
-= link_to 'New Comment', new_comment_path
+  br
+
+  = link_to 'New Comment', new_comment_path

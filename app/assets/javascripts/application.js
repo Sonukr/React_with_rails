@@ -13,7 +13,7 @@
 //= require jquery
 //= require jquery_ujs
 //= require turbolinks
-
+//= require bootstrap.js
 //= require showdown
 //= require react
 //= require react_ujs

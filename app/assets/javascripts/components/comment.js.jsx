@@ -1,10 +1,13 @@
 var Comment = React.createClass({
     render : function(){
-        return(<h1>hello</h1>);
+        return(
+            <h1>hello</h1>
+
+        );
     }
 
 });
-
+//
 ///** @jsx React.DOM */
 //
 //var converter = new Showdown.converter();
@@ -143,4 +146,10 @@ var Comment = React.createClass({
 //        );
 //    }
 //})
-//
+//$(function() {
+//    React.renderComponent(
+//        <CommentBox url="comments.json" pollInterval={2000} />,
+//        document.getElementById('content')
+//    );
+//})
+
